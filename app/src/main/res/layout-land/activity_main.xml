@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 1:" />
+
+        <EditText
+            android:id="@+id/textBox1"
+            android:layout_width="275dp"
+            android:layout_height="100dp"
+            android:hint="Enter text for Label 1" />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 2:" />
+
+        <EditText
+            android:id="@+id/textBox2"
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:hint="Enter text for Label 2" />
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 3:" />
+
+        <EditText
+            android:id="@+id/textBox3"
+            android:layout_width="280dp"
+            android:layout_height="100dp"
+            android:hint="Enter text for Label 3" />
+
+        <TextView
+            android:id="@+id/label4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label 4:" />
+
+        <EditText
+            android:id="@+id/textBox4"
+            android:layout_width="287dp"
+            android:layout_height="100dp"
+            android:text="Enter text for Label 4" />
+
+</LinearLayout>
+
+
