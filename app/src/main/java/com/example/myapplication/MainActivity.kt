@@ -30,9 +30,6 @@ class MainActivity : ComponentActivity() {
     private fun showToast(message: String) {
         Log.i("MainActivity","button was clicked")
         Toast.makeText(this, message, Toast.LENGTH_LONG).show()
-
     }
-
-
 }
 
